@@ -1,3 +1,4 @@
+# coding=utf8
 import streamlit as st 
 from PIL import Image
 
