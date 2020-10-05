@@ -38,6 +38,3 @@ if uploaded_file is not None:
                 st.header("**Cracked Concrete! 🚧 **")
                 st.subheader("Why does Concrete crack ? For more information, Please GOOGLE it! 🤪 ")
     st.write(pred(vggmodel))
-    
-image = Image.open('data.jpeg')
-st.image(image, caption='Hosted By IBM Cloud', use_column_width=True)
