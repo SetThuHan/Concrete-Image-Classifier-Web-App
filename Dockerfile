@@ -15,4 +15,4 @@ RUN pip install -r /app/requirements.txt
 COPY . /app
 
 # Launch app when container is run
-CMD streamlit run concrete.py
+CMD sh setup.sh && streamlit run concrete.py
