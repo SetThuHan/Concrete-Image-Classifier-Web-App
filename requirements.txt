@@ -1,5 +1,5 @@
 streamlit
-tensorflow==2.2.0
+tensorflow
 pillow
-numpy
+numpy==1.16.4
 keras
