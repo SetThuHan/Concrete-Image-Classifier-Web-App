@@ -1,4 +1,4 @@
 build:
   docker:
     web: Dockerfile
-    random-route: true
+random-route: true
