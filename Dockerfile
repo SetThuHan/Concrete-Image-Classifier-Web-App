@@ -1,5 +1,5 @@
 FROM python:3.8.5
-
+ENV LC_ALL=C.UTF-8
 WORKDIR /app
 
 # Exposing default port for streamlit
@@ -11,7 +11,7 @@ RUN pip install -r /app/requirements.txt
 
 # Copy necessary files
 
-COPY . /app
+COPY . .
 
 ENTRYPOINT [ "python" ]
 
