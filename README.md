@@ -21,9 +21,9 @@ Now you're ready to start working with the app. Clone the repo and change to the
   ```
 git clone https://github.com/SetThuHan/Concrete-Image-Classifier-Web-App.git
 cd get-started-python
- 
+  ```
 ## 2. Run the app locally
-
+```
 Install the dependencies listed in the [requirements.txt]
   ```
 pip install -r requirements.txt
@@ -39,7 +39,8 @@ If streamlit command not found, you need to set its path to be executed manually
 When streamlit's run-time Syntax error found even after setting above method, you need to update [dateutils].
 
 Now view your app at: http://localhost:8501
-
+```
 ## 3. Deploy the app to Heroku
-
+```
 First, you need to create an app in your new Heroku account, then follow the instructions shown below "Deploy" Tab in your new app dashboard.
+```
