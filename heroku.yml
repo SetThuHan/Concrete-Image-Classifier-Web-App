@@ -1,0 +1,4 @@
+applications:
+    - name: concrete-classifier
+      random-route: true
+      memory: 2G
