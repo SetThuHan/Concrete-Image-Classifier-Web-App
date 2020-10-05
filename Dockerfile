@@ -1,14 +1,19 @@
-# The Dockerfile defines the image's environment
-# Import Python runtime and set up working directory
-FROM python:3.8.5-alpine
+FROM python:3.8.5
+
 WORKDIR /app
-ADD . /app
 
-# Install any necessary dependencies
-RUN pip install -r requirements.txt
+# Exposing default port for streamlit
+EXPOSE 8501
 
-# Open port 80 for serving the webpage
-EXPOSE 80
+# Install requirements
+COPY ./requirements.txt /app/requirements.txt
+RUN pip install -r /app/requirements.txt
 
-# Run concrete.py when the container launches
+# Copy necessary files
+
+COPY . /app
+
+ENTRYPOINT [ "python" ]
+
+# Launch app when container is run
 CMD streamlit run concrete.py
