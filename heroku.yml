@@ -2,4 +2,3 @@ build:
   docker:
     web: Dockerfile
     random-route: true
-      memory: 2G
