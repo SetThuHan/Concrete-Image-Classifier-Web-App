@@ -1,8 +1,7 @@
 # Concrete-Image-Classifier-Web-App
 
-## This Repo is used for hosting Github to Heroku. 
-## Deployed to Heroku by hosting Github
-https://cracked-uncracked.herokuapp.com/
+## This Repo can be used for hosting Github to Heroku and also running on local machine. 
+### Deployed to Heroku by hosting Github : https://cracked-uncracked.herokuapp.com/
 #### Since Deep Learning Libs use more Slug-size, I used Github hosting method. But there is still "Connection Timed Out" Issue because of large dataset. I tried all solutions found in Google. Better waiting re-connecting to the Web-App.
 
 ## Below setup is to run in local machine
