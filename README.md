@@ -1,7 +1,7 @@
 # Concrete-Image-Classifier-Web-App
 
 ## This Repo can be used for hosting Github to Heroku and also running on local machine. 
-### Deployed to Heroku by hosting Github : https://cracked-uncracked.herokuapp.com/
+### Deployed to Heroku by hosting Github : https://cracked-uncracked.herokuapp.com/ . First you need to open this link in your web browser, then push that browser to Background or Switch to another Web URL, after that, wait for few seconds, and then you can see the Web App is loaded : "concrete .Streamlit" on your browser. After all, you can enjoy it. Maximum size for uploading JPG image : 100 KB. If you upload something like 1MB image size, it will cause Overloads or index to be out of bounds. Please view sample image dataset here: https://github.com/SetThuHan/AI-Capstone-Final-Assignment/tree/master/concrete_data_week4. These datasets were used to fit the model with Pre-traind VGG16 model.
 #### Since Deep Learning Libs use more Slug-size, I used Github hosting method. But there is still "Connection Timed Out" Issue because of large dataset. I tried all solutions found in Google. Better waiting re-connecting to the Web-App.
 
 ## Below setup is to run in local machine
