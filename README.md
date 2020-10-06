@@ -13,7 +13,7 @@ You'll need the following:
 * [Git]
 * [Python-3 latest version]
 * [Heroku]
-* [Tensorflow-2.2.0] Since VGG16 Pre-trained model was fitted in Tensorflow-2.2.0.
+* [Tensorflow-2.2.0] Since VGG16 Pre-trained model was fitted in Tensorflow-2.2.0. For training, validating & testing, here is a git-repo that contains image datas: https://github.com/SetThuHan/AI-Capstone-Final-Assignment/tree/master/concrete_data_week4
 * [Keras latest version]
 * [Streamlit]
 
