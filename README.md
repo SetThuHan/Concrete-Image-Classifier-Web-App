@@ -13,7 +13,7 @@ You'll need the following:
 * [Git]
 * [Python-3 latest version]
 * [Heroku]
-* [Tensorflow-2.2.0] Since VGG16 model was trained in Tensorflow-2.2.0.
+* [Tensorflow-2.2.0] Since VGG16 Pre-trained model was fitted in Tensorflow-2.2.0.
 * [Keras latest version]
 * [Streamlit]
 
