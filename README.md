@@ -41,7 +41,7 @@ streamlit run concrete.py
 If streamlit command not found, you need to set its path to be executed manually using [chmod +x (your-dir-path/bin/streamlit)].
 When streamlit's run-time Syntax error found even after setting above method, you need to update [dateutils].
 ```
-Now view your app at: http://localhost:8501
+Now your web app will be automatically generated and open in browser.
 ```
 ## 3. Deploy the app to Heroku
 ```
